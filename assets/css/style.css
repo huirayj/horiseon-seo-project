@@ -10,6 +10,13 @@ body {
     color: #ffffff;
 }
 
+/* Moved to reflect html structure */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Class header replaced */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,16 +49,6 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-/* img src moved to html */
 .hero {
     height: 800px;
     width: 100%;
@@ -71,10 +68,16 @@ p {
     margin-left: 25px;
 }
 
+/* Class content replaced */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+/* Moved to reflect html structure */
+p {
+    font-size: 16px;
 }
 
 /* Classes seo, orm, and smm merged into one */
@@ -95,7 +98,7 @@ main {
     font-size: 36px;
 }
 
-/* Moved lower to reflect html structure */
+/* Moved down to reflect html structure */
 aside {
     margin-right: 20px;
     padding: 20px;

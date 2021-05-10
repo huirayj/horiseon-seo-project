@@ -10,13 +10,7 @@ body {
     color: #ffffff;
 }
 
-/* Moved to reflect html structure */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/* Class header replaced */
+/* Class header replaced with header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -28,8 +22,11 @@ header h1 {
     font-size: 48px;
 }
 
+/* Added styling to remove underline from by abbr tag */
 header h1 .seo {
     color: #d9dcd6;
+    border: none;
+    text-decoration: none;
 }
 
 header nav {
@@ -49,6 +46,17 @@ header nav ul li {
     margin-left: 25px;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Add a hover state to improve user experience */
+a:hover {
+    color: hsl(203, 100%, 75%);
+    font-size: 1.05em;
+}
+
 .hero {
     height: 800px;
     width: 100%;
@@ -58,24 +66,14 @@ header nav ul li {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-/* Class content replaced */
+/* .content replaced */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Moved to reflect html structure */
+/* Moved down to reflect html structure */
 p {
     font-size: 16px;
 }
@@ -96,6 +94,17 @@ p {
 .description h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/* Moved down to reflect html structure */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 /* Moved down to reflect html structure */
@@ -127,11 +136,13 @@ aside {
     height: auto;
 }
 
+/* Added black text color to offset moving white text color to body */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    color: black;
 }
 
 footer h4 {

@@ -4,13 +4,10 @@
 
 In this exercise, most generic div tags were replaced with appropriate semantic tags to illustrate the concept of semanatic tags. Good coding practices were employed by applying the DRY method. Various classes that served a similar purpose were consolidated into one class to ensure the neatness and readability of the code. Finally, the code was improved to be more SEO-friendly by adding alt texts to images, including a meta description, optimzing images files for performance and etc.
 
-Table of Contents
+## Table of Contents
 
-- [Horiseon SEO Project: SEO Site Optimization Exercise](#horiseon-seo-project-seo-site-optimization-exercise)
-  - [Overview](#overview)
   - [Features](#features)
   - [Installation](#installation)
-  - [Usage](#usage)
   - [Technologies Used](#technologies-used)
   - [Links](#links)
   - [Resources](#resources)
@@ -30,16 +27,10 @@ Table of Contents
 - Git clone the repository.
 - Open `index.html` in a browser of your choice.
 
-## Usage
-
-- Select criteria for a random password.
-- Click on the "Generate Password" button.
-
 ## Technologies Used
 
 - HTML
 - CSS
-- JavaScript
 
 ## Links
 
